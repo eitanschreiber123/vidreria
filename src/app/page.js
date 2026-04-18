@@ -18,11 +18,11 @@ export default function Home() {
         <Services />
         <section style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
         <h1 className="text-3xl text-center mb-10 font-semibold">Quienes Somos</h1>
-        <div className="grid md:grid-cols-4 gap-6 px-6">
+        <div className="grid md:grid-cols-4 gap-6 px-6 w-full">
           {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20].map(i => <motion.div
   key={i}
   whileHover={{ scale: 1.05 }}
-  className="p-6 rounded-2xl bg-white shadow-md hover:shadow-xl transition w-full h-40 ">
+  className="p-6 rounded-2xl bg-white shadow-md hover:shadow-xl transition w-full max-h-78 ">
   <Image
     src={`/people/${i}.jpg`}
     fill
