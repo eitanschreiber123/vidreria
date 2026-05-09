@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Services = () => {
   const items = [
-    {text:"Ventanas de aluminio",image:'/nicaragua_5.jpg'},
+    {text:"Ventanas de aluminio",image:'/nicaragua_other.jpg'},
     {text:"Puertas de vidrio",image:'/puerta.jpg'},
     {text:"Canceles de baño",image:'/bano.jpg'},
     {text:"Proyectos comerciales",image:'/last.jpg'}
