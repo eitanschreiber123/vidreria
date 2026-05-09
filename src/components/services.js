@@ -1,6 +1,7 @@
 "use client"
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const Services = () => {
   const items = [
@@ -15,7 +16,7 @@ const Services = () => {
       <h2 className="text-3xl text-center mb-10 font-semibold">Servicios</h2>
       <div className="grid md:grid-cols-4 gap-6">
         {items.map((s,i)=>(
-          <motion.div
+          <Link href="/services"><motion.div
   key={i}
   whileHover={{ scale: 1.05 }}
   className="p-6 rounded-2xl bg-white shadow-md hover:shadow-xl transition"
@@ -30,7 +31,7 @@ const Services = () => {
   </div>
 
   <h3 className="font-semibold">{s.text}</h3>
-</motion.div>
+</motion.div></Link>
         ))}
       </div>
     </section>

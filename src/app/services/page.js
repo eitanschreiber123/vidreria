@@ -192,10 +192,7 @@ const newData = [
                           Cotizar
                         </Link>
 
-                        <Link
-                          href="/cotizar" className="border px-4 rounded-xl hover:bg-gray-100 transition">
-                          Ver más
-                        </Link>
+                        <Link href="/cotizar" className="border px-4 rounded-xl hover:bg-gray-100 transition flex items-center">Ver más</Link>
                       </div>
                     </div>
                   </motion.div>
